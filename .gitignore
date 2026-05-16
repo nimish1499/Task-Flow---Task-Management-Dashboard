@@ -1,0 +1,50 @@
+# ── Dependencies ──
+node_modules/
+.pnp
+.pnp.js
+
+# ── Build Output ──
+dist/
+dist-ssr/
+build/
+
+# ── Environment Variables ──
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ── Vite ──
+*.local
+vite.config.js.timestamp-*
+
+# ── Logs ──
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── OS & Editor 
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Testing ──
+coverage/
+.nyc_output/
+
+# ── Misc ──
+*.tgz
+*.zip
